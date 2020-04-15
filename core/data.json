@@ -1,0 +1,42 @@
+{
+  "hackcam" : { 
+    "name" : "hackcam",
+    "package_name" : "hackcam",
+    "category" : ["camera hacking"],
+    "url" : "https://github.com/sparkz-technology/hackcam.git",
+    "package_manager" : "git",
+    "dependency" : ["git"]
+  },
+  "TBomb" : { 
+    "name" : "TBomb",
+    "package_name" : "TBomb",
+    "category" : ["spam call and sms"],
+    "url" : "https://github.com/sparkz-technology/TBomb",
+    "package_manager" : "git",
+    "dependency" : ["python","git",]
+  },
+  "Target" : { 
+    "name" : "Target",
+    "package_name" : "Target",
+    "category" : ["track location"],
+    "url" : "https://github.com/sparkz-technology/Target.git",
+    "package_manager" : "git",
+    "dependency" : ["git"]
+  },
+  "banner" : { 
+    "name" : "banner",
+    "package_name" : "banner",
+    "category" : ["termux banner"],
+    "url" : "https://github.com/sparkz-technology/banner.git",
+    "package_manager" : "git",
+    "dependency" : ["git"]
+  },
+  "hacklock" : { 
+    "name" : "hacklock",
+    "package_name" : "hacklock",
+    "category" : ["patten lock hack"],
+    "url" : "https://github.com/sparkz-technology/hacklock.git",
+    "package_manager" : "git",
+    "dependency" : ["python","git"]
+  }
+}
