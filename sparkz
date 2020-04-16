@@ -1,0 +1,74 @@
+#!/usr/bin/env bash
+# TheChoice v1.0
+# Coded by @sparkz-technology (Don't change, noob!)
+# Github: https://github.com/sparkz-technology/sparkz
+
+
+menu() {
+echo -e "\e[1;32m"
+toilet -f mono12  sparkz | lolcat
+printf "\n"
+printf "            \e[1;31m>>>\e[0m\e[1;92m Coded by\e[0m\e[1;77m  @sparkz-technology \e[0m\e[1;31m<<<\e[0m\n"
+printf "\n"                                                          
+
+
+
+
+printf "\e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;32m Camera hacking\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;32m Spam Call And Sms\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;32m track Location\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;32m Termux Banner\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m05\e[1;31m]\e[0m\e[1;32m Phone Patten Hack\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m06\e[1;31m]\e[0m\e[1;32m update termux \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m07\e[1;31m]\e[0m\e[1;32m update sparkz \e[0m\n"
+printf "\n"
+printf "\e[1;31m[\e[0m\e[1;77m00\e[0m\e[1;31m]\e[0m\e[1;77m Exit\e[0m\n"
+printf "\n" 
+read -p $'\e[1;92m[*] Choose an option:\e[0m\e[1;77m ' option
+
+if [[ $option == 1 || $option == 01 ]]; then
+cd tools/hackcam/
+chmod +x *
+clear
+bash hackcam.sh
+
+elif [[ $option == 2 || $option == 02 ]]; then
+cd tools/TBomb/
+chmod +x *
+clear
+bash TBomb.sh
+elif [[ $option == 3 || $option == 03 ]]; then
+cd tools/Target/
+chmod +x *
+clear
+bash Target.sh
+elif [[ $option == 4 || $option == 04 ]]; then
+cd tools/banner
+chmod +x *
+clear
+bash requirement.sh
+bash ban.sh
+elif [[ $option == 5 || $option == 05 ]]; then
+cd tools/hacklock/
+chmod +x *
+clear
+bash hacklock.sh
+elif [[ $option == 6 || $option == 06 ]]; then
+cd tools/update termux
+chmod +x *
+clear
+bash req
+elif [[ $option == 7 || $option == 07 ]]; then
+cd tools/update sparkz
+chmod +x *
+bash update.sh
+elif [[ $option  == 00 ]]; then
+exit 1
+else
+printf "\e[1;93m[\e[1;77m!\e[0m\e[1;93m] Invalid option!\e[0m"
+sleep 0.5
+clear
+menu
+fi
+}
+menu
