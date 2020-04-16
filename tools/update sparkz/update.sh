@@ -24,7 +24,6 @@ echo '
 echo " "
 echo " "
 sleep 6.0
-clear
 echo -e "$red                         ChEcKiNg..>$rset"
 sleep 2.0
 clear
