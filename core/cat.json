@@ -1,7 +1,6 @@
 {
-  "camera_hacking" : "camera hacking",
-  "spam_call_and_sms" : "spam call and sms",
-  "track_location" : "track location",
-  "termux_banner" : "termux banner",
-  "patten_lock_hack" : "patten lock hack"
+  "camera_hacking" : "Camera Hacking",
+  "track_location" : "Track Location",
+  "termux_banner" : "Termux Banner",
+  "patten_lock_hack" : "Patten Lock Hack"
 }
