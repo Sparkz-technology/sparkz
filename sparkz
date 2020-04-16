@@ -61,6 +61,7 @@ bash req
 elif [[ $option == 7 || $option == 07 ]]; then
 cd tools/update sparkz
 chmod +x *
+clear
 bash update.sh
 elif [[ $option  == 00 ]]; then
 exit 1
