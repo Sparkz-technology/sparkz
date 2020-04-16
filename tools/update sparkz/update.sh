@@ -43,7 +43,7 @@ echo -e "$grn                updating the sparkz please wait$rset"
 sleep 2.0
 cd $HOME
 rm -rf sparkz
-git clone https://github.com/sparkz-technology/sparkk
+git clone https://github.com/sparkz-technology/sparkz
 clear
 echo " "
 echo -e "$grn               HackLock has been updated check it now...$rset"
