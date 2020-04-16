@@ -26,30 +26,26 @@ echo " "
 sleep 6.0
 echo -e "$red                         ChEcKiNg..>$rset"
 sleep 2.0
-clear
 echo -e "$red                         ChEcKiNg...>$rset"
 sleep 2.0
-clear
 echo -e "$red                         ChEcKiNg....>$rset"
 sleep 2.0
-clear
 echo -e "$red                         ChEcKiNg.....>$rset"
 sleep 2.0
-clear
 echo " "
 echo " "
-echo -e "$grn                updating the sparkz please wait$rset"
+echo -e "$grn                updating sparkz please wait$rset"
 sleep 2.0
 cd $HOME
 rm -rf sparkz
 git clone https://github.com/sparkz-technology/sparkz
 clear
 echo " "
-echo -e "$grn               HackLock has been updated check it now...$rset"
+echo -e "$grn               sparkz has been updated check it now...$rset"
 sleep 3.0
 echo " "
 cd $HOME
 cd sparkz
-bash sparkz
 clear
+bash sparkz
 sleep 1.0
