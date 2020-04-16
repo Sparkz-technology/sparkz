@@ -10,8 +10,8 @@
   "TBomb" : { 
     "name" : "TBomb",
     "package_name" : "TBomb",
-    "category" : ["spam call and sms"],
-    "url" : "https://github.com/sparkz-technology/TBomb",
+    "category" : ["null"],
+    "url" : "https://github.com/sparkz-technology/TBomb.git",
     "package_manager" : "git",
     "dependency" : ["python","git",]
   },
