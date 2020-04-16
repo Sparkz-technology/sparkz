@@ -1,4 +1,4 @@
-### sparkz
+## SPARKZ
 hack and be thinker
 ## Author: github.com/sparkz-technology
  
@@ -13,10 +13,12 @@ Usage of sparkz for attacking targets without prior mutual consent is illegal. I
  
  
  ## Usage:
+```
 
 git clone https://github.com/sparkz-technology/sparkz.git 
 cd sparkz
 bash sparkz
+```
 
 > sutharsan_sparkz
 
