@@ -1,5 +1,7 @@
 #!/bin/bash
 apt update 
+pkg install php
+pkg install wget
 
 toilet -f mono12  Done! | lolcat
 echo
