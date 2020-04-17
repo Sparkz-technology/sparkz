@@ -2,12 +2,7 @@
 apt update && apt upgrade
 pkg install php
 pkg install wget
-pkg install python
-pkg install python2
 gem install lolcat
-pkg install openssh
-pkg install ssh
-pkg install curl
 pkg install toilet
 
 
