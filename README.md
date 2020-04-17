@@ -18,15 +18,15 @@ Usage of sparkz v6.sparkz for attacking targets without prior mutual consent is 
  
  ## Usage:
 ```
-pkg install pip
 pkg install git
+pkg install pip
 pkg install wget
-pkg install python
+pkg install php
 gem install lolcat
 git clone https://github.com/sparkz-technology/sparkz.git 
 cd sparkz
 bash sparkz
 ```
 
-> sutharsan_sparkz
+> sutharsan_sparkz 
 
