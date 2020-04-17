@@ -1,9 +1,7 @@
 #!/bin/bash
 apt update 
-pkg install php
-pkg install wget
 gem install lolcat
-pkg install toilet
+apt upgrade
 
 
 toilet -f mono12  Done! | lolcat
