@@ -351,7 +351,7 @@ else
 printf "\e[1;93m [!] Invalid option! Try !!!\e[0m\n"
 sleep 2
 clear
-start2
+start1
 fi
 
 }
