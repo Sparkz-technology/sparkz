@@ -1,12 +1,12 @@
 #!/bin/bash
-apt update && apt upgrade
+apt update 
 pkg install php
 pkg install wget
 gem install lolcat
 pkg install toilet
 
 
-toilet -f mono12  Done !!! | lolcat
+toilet -f mono12  Done! | lolcat
 echo
 echo -e "\e[1m Now Run bash sparkz...!!!"
 echo
