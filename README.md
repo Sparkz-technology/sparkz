@@ -22,7 +22,7 @@ pkg install pip
 pkg install git
 pkg install wget
 pkg install python
-pip install lolcat
+gem install lolcat
 git clone https://github.com/sparkz-technology/sparkz.git 
 cd sparkz
 bash sparkz
