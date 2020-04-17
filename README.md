@@ -1,5 +1,5 @@
 ## SPARKZ  v6.sparkz
-hack and be thinker
+> sparkz is a  collection of hacking tool like hackcam,Target,TBomb,Hacklock
 ## Author: github.com/sparkz-technology
  
 ## IG: instagram.com/sutharsan_sparkz
@@ -18,7 +18,11 @@ Usage of sparkz v6.sparkz for attacking targets without prior mutual consent is 
  
  ## Usage:
 ```
-
+pkg install pip
+pkg install git
+pkg install wget
+pkg install python
+pip install lolcat
 git clone https://github.com/sparkz-technology/sparkz.git 
 cd sparkz
 bash sparkz
