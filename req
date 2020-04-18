@@ -8,6 +8,7 @@ echo
 echo -e "\e[1m Now Run sparkz...!!!"
 echo
 echo -e "\e[1m\e[32m Developed by :\e[33m sparkz-technology (sparkz)"
+sleep 6
 clear
 cd 
 cd sparkz
