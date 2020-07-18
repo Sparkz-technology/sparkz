@@ -24,7 +24,7 @@ gem install lolcat
 git clone https://github.com/sparkz-technology/sparkz.git 
 cd sparkz
 chmod +x sparkz
-bash sparkz
+./sparkz
 ```
 
 > sutharsan_sparkz 
